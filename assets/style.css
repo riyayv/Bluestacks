@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00bcd4;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.video-author {
+  font-weight: 600;
+  color: #00bcd4;
+}
+
+.video-thumb {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid #ddd;
+  transition: transform 0.3s ease-in-out;
+}
+
+.video-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.video-card:hover .video-thumb {
+  transform: scale(1.05);
+}
+
+.footer-section {
+  background-color: #343a40;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-section p {
+  font-size: 14px;
+}

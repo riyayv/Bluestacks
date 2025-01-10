@@ -1,0 +1,25 @@
+{
+  "name": "bluestacks-website-fullstack-dev-assignment",
+  "version": "1.0.0",
+  "description": "Assignment for FullStack Web Developer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bluestacks",
+    "bluestacks-website-fullstack-dev-assignment",
+    "website-fullstack-dev-assignment-solution"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.3",
+    "yt-trending-scraper": "^1.1.0"
+  }
+}
